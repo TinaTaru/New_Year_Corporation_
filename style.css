@@ -23,7 +23,7 @@ h1{
     align-items: center;
     flex-direction: column;
     background-color: lightgray;
-    background-image: url(image/top_image%202.jpg);
+    background-image: url(top_image2.jpg);
     background-size: 100%;
     
 }
@@ -104,7 +104,7 @@ h2{
     color: black;
 }
 ul{
-    list-style-image: url(image/christmas_ball.png);
+    list-style-image: url(christmas_ball.png);
     margin-left: 20px;
 }
 
