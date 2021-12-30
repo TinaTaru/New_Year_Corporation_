@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+body{
+    margin: 0px;
+    padding 0px;
+}
+
+/* header */
+h1{
+    font-size: 50px;
+    font-family: Imperial Script;
+    text-shadow: 2px 0 2px #fff, 
+0 2px 2px #fff, 
+-2px 0 2px #fff, 
+0 -2px 2px #fff;
+}
+.header{
+    display: flex;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightgray;
+    background-image: url(image/top_image%202.jpg);
+    background-size: 100%;
+    
+}
+.hello_card{
+    width: 90%;
+    opacity: 0.9;
+    background-color: white;
+    border-radius: 20px;
+}
+.hello_card > blockquote{
+    margin: 10px;
+    font-size: 30px;
+    opacity: 1;
+    font-family: Open Sans Condensed;
+}
+.hello_card > blockquote > p{
+    text-align: center;
+    opacity: 1;
+}
+site{
+    display: flex;
+    justify-content: flex-end;
+}
+.podp{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.podp2{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.podp2 > p{
+    font-size: 20px;
+}
+
+/* main */
+h2, h3, p{
+    font-family: Open Sans Condensed;
+}
+h2{
+    text-align: center;
+}
+
+/* artical 1: Новости */
+
+
+/* artical 2: Часто задаваемые вопросы */ 
+.QA{
+    width: 100%;
+    height: auto;
+    background-color: lightblue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    flex-direction: column;
+}
+.QA_Text{
+    width: 95%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+    opacity: 0.5;
+}
+.QA_Text > p{
+    margin: 6px;
+    text-align: center;
+    opacity:1;
+    color: black;
+}
+ul{
+    list-style-image: url(image/christmas_ball.png);
+    margin-left: 20px;
+}
+
+/* анкета и письмо деду морозу */
+.icon{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    transition: 0.6s;
+    border-radius: 20px 0px 0px 20px;
+}
+.icon:hover{
+    background-color: white;
+    color: red;
+}
+.icon > p{
+    font-size: 30px;
+}
+.letter{
+    position: fixed;
+    right: 0px;
+    top: 25px;
+}
+.gift{
+    position: fixed;
+    right: 0px;
+    top: 120px;
+}
+a{
+    text-decoration: none;
+}
+.top{
+    position: fixed;
+    right: 0px;
+    bottom: 25px;
+}
